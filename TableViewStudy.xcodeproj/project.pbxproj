@@ -20,6 +20,8 @@
 		1B5E36E824011CA700EA7E8B /* SeparatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36E724011CA700EA7E8B /* SeparatorViewController.swift */; };
 		1B5E36EA240123B600EA7E8B /* TableViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36E9240123B600EA7E8B /* TableViewCellViewController.swift */; };
 		1B5E36EC2401288700EA7E8B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36EB2401288700EA7E8B /* DetailViewController.swift */; };
+		1B5E36EE24012E4B00EA7E8B /* AccessoryViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36ED24012E4B00EA7E8B /* AccessoryViewViewController.swift */; };
+		1B5E36F02401342800EA7E8B /* CustomAccessoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36EF2401342800EA7E8B /* CustomAccessoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		1B5E36E724011CA700EA7E8B /* SeparatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorViewController.swift; sourceTree = "<group>"; };
 		1B5E36E9240123B600EA7E8B /* TableViewCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewController.swift; sourceTree = "<group>"; };
 		1B5E36EB2401288700EA7E8B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1B5E36ED24012E4B00EA7E8B /* AccessoryViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViewViewController.swift; sourceTree = "<group>"; };
+		1B5E36EF2401342800EA7E8B /* CustomAccessoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAccessoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				1B5E36E724011CA700EA7E8B /* SeparatorViewController.swift */,
 				1B5E36E9240123B600EA7E8B /* TableViewCellViewController.swift */,
 				1B5E36EB2401288700EA7E8B /* DetailViewController.swift */,
+				1B5E36ED24012E4B00EA7E8B /* AccessoryViewViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				1B5E36E524011BAB00EA7E8B /* SwitchTableViewCell.swift */,
+				1B5E36EF2401342800EA7E8B /* CustomAccessoryTableViewCell.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -183,12 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5E36EE24012E4B00EA7E8B /* AccessoryViewViewController.swift in Sources */,
 				1B5E36E824011CA700EA7E8B /* SeparatorViewController.swift in Sources */,
 				1B5E36E124010FCB00EA7E8B /* MultiSectionTableViewViewController.swift in Sources */,
 				1B5E36CD2400FD5A00EA7E8B /* ViewController.swift in Sources */,
 				1B5E36E624011BAB00EA7E8B /* SwitchTableViewCell.swift in Sources */,
 				1B5E36C92400FD5A00EA7E8B /* AppDelegate.swift in Sources */,
 				1B5E36EA240123B600EA7E8B /* TableViewCellViewController.swift in Sources */,
+				1B5E36F02401342800EA7E8B /* CustomAccessoryTableViewCell.swift in Sources */,
 				1B5E36DE24010C6400EA7E8B /* DelegatePatternViewController.swift in Sources */,
 				1B5E36EC2401288700EA7E8B /* DetailViewController.swift in Sources */,
 				1B5E36CB2400FD5A00EA7E8B /* SceneDelegate.swift in Sources */,

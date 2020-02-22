@@ -15,6 +15,5 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         valueLabel.text = value
-        // Do any additional setup after loading the view.
     }
 }
