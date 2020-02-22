@@ -18,6 +18,8 @@
 		1B5E36E32401101D00EA7E8B /* PhotosSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36E22401101D00EA7E8B /* PhotosSetting.swift */; };
 		1B5E36E624011BAB00EA7E8B /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36E524011BAB00EA7E8B /* SwitchTableViewCell.swift */; };
 		1B5E36E824011CA700EA7E8B /* SeparatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36E724011CA700EA7E8B /* SeparatorViewController.swift */; };
+		1B5E36EA240123B600EA7E8B /* TableViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36E9240123B600EA7E8B /* TableViewCellViewController.swift */; };
+		1B5E36EC2401288700EA7E8B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36EB2401288700EA7E8B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		1B5E36E22401101D00EA7E8B /* PhotosSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosSetting.swift; sourceTree = "<group>"; };
 		1B5E36E524011BAB00EA7E8B /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 		1B5E36E724011CA700EA7E8B /* SeparatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorViewController.swift; sourceTree = "<group>"; };
+		1B5E36E9240123B600EA7E8B /* TableViewCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewController.swift; sourceTree = "<group>"; };
+		1B5E36EB2401288700EA7E8B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				1B5E36DD24010C6400EA7E8B /* DelegatePatternViewController.swift */,
 				1B5E36E024010FCB00EA7E8B /* MultiSectionTableViewViewController.swift */,
 				1B5E36E724011CA700EA7E8B /* SeparatorViewController.swift */,
+				1B5E36E9240123B600EA7E8B /* TableViewCellViewController.swift */,
+				1B5E36EB2401288700EA7E8B /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,7 +188,9 @@
 				1B5E36CD2400FD5A00EA7E8B /* ViewController.swift in Sources */,
 				1B5E36E624011BAB00EA7E8B /* SwitchTableViewCell.swift in Sources */,
 				1B5E36C92400FD5A00EA7E8B /* AppDelegate.swift in Sources */,
+				1B5E36EA240123B600EA7E8B /* TableViewCellViewController.swift in Sources */,
 				1B5E36DE24010C6400EA7E8B /* DelegatePatternViewController.swift in Sources */,
+				1B5E36EC2401288700EA7E8B /* DetailViewController.swift in Sources */,
 				1B5E36CB2400FD5A00EA7E8B /* SceneDelegate.swift in Sources */,
 				1B5E36E32401101D00EA7E8B /* PhotosSetting.swift in Sources */,
 			);
