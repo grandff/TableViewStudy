@@ -22,6 +22,7 @@
 		1B5E36EC2401288700EA7E8B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36EB2401288700EA7E8B /* DetailViewController.swift */; };
 		1B5E36EE24012E4B00EA7E8B /* AccessoryViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36ED24012E4B00EA7E8B /* AccessoryViewViewController.swift */; };
 		1B5E36F02401342800EA7E8B /* CustomAccessoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36EF2401342800EA7E8B /* CustomAccessoryTableViewCell.swift */; };
+		1B5E36FA24015D6E00EA7E8B /* SelfSizingCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36F924015D6E00EA7E8B /* SelfSizingCellViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		1B5E36EB2401288700EA7E8B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1B5E36ED24012E4B00EA7E8B /* AccessoryViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViewViewController.swift; sourceTree = "<group>"; };
 		1B5E36EF2401342800EA7E8B /* CustomAccessoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAccessoryTableViewCell.swift; sourceTree = "<group>"; };
+		1B5E36F924015D6E00EA7E8B /* SelfSizingCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingCellViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				1B5E36E9240123B600EA7E8B /* TableViewCellViewController.swift */,
 				1B5E36EB2401288700EA7E8B /* DetailViewController.swift */,
 				1B5E36ED24012E4B00EA7E8B /* AccessoryViewViewController.swift */,
+				1B5E36F924015D6E00EA7E8B /* SelfSizingCellViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			files = (
 				1B5E36EE24012E4B00EA7E8B /* AccessoryViewViewController.swift in Sources */,
 				1B5E36E824011CA700EA7E8B /* SeparatorViewController.swift in Sources */,
+				1B5E36FA24015D6E00EA7E8B /* SelfSizingCellViewController.swift in Sources */,
 				1B5E36E124010FCB00EA7E8B /* MultiSectionTableViewViewController.swift in Sources */,
 				1B5E36CD2400FD5A00EA7E8B /* ViewController.swift in Sources */,
 				1B5E36E624011BAB00EA7E8B /* SwitchTableViewCell.swift in Sources */,
