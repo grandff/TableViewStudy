@@ -33,25 +33,12 @@ class MultiSectionTableViewViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     // switch 액션. 어느 스위치인지 구분하기 위해 tag 사용
     @objc func switchChanged(_ sender : UISwitch){
         print(sender.isOn, sender.tag)
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 // 테이블 뷰 데이터 소스(3)
