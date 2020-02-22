@@ -14,6 +14,9 @@
 		1B5E36D22400FD5D00EA7E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E36D12400FD5D00EA7E8B /* Assets.xcassets */; };
 		1B5E36D52400FD5D00EA7E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E36D32400FD5D00EA7E8B /* LaunchScreen.storyboard */; };
 		1B5E36DE24010C6400EA7E8B /* DelegatePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36DD24010C6400EA7E8B /* DelegatePatternViewController.swift */; };
+		1B5E36E124010FCB00EA7E8B /* MultiSectionTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36E024010FCB00EA7E8B /* MultiSectionTableViewViewController.swift */; };
+		1B5E36E32401101D00EA7E8B /* PhotosSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36E22401101D00EA7E8B /* PhotosSetting.swift */; };
+		1B5E36E624011BAB00EA7E8B /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36E524011BAB00EA7E8B /* SwitchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		1B5E36D42400FD5D00EA7E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B5E36D62400FD5D00EA7E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B5E36DD24010C6400EA7E8B /* DelegatePatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePatternViewController.swift; sourceTree = "<group>"; };
+		1B5E36E024010FCB00EA7E8B /* MultiSectionTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSectionTableViewViewController.swift; sourceTree = "<group>"; };
+		1B5E36E22401101D00EA7E8B /* PhotosSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosSetting.swift; sourceTree = "<group>"; };
+		1B5E36E524011BAB00EA7E8B /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		1B5E36C72400FD5A00EA7E8B /* TableViewStudy */ = {
 			isa = PBXGroup;
 			children = (
+				1B5E36E424011B9600EA7E8B /* Utility */,
+				1B5E36DF24010F3C00EA7E8B /* Model */,
 				1B5E36DC24010C4C00EA7E8B /* Controller */,
 				1B5E36C82400FD5A00EA7E8B /* AppDelegate.swift */,
 				1B5E36CA2400FD5A00EA7E8B /* SceneDelegate.swift */,
@@ -74,8 +82,25 @@
 			isa = PBXGroup;
 			children = (
 				1B5E36DD24010C6400EA7E8B /* DelegatePatternViewController.swift */,
+				1B5E36E024010FCB00EA7E8B /* MultiSectionTableViewViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B5E36DF24010F3C00EA7E8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E36E22401101D00EA7E8B /* PhotosSetting.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B5E36E424011B9600EA7E8B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E36E524011BAB00EA7E8B /* SwitchTableViewCell.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5E36E124010FCB00EA7E8B /* MultiSectionTableViewViewController.swift in Sources */,
 				1B5E36CD2400FD5A00EA7E8B /* ViewController.swift in Sources */,
+				1B5E36E624011BAB00EA7E8B /* SwitchTableViewCell.swift in Sources */,
 				1B5E36C92400FD5A00EA7E8B /* AppDelegate.swift in Sources */,
 				1B5E36DE24010C6400EA7E8B /* DelegatePatternViewController.swift in Sources */,
 				1B5E36CB2400FD5A00EA7E8B /* SceneDelegate.swift in Sources */,
+				1B5E36E32401101D00EA7E8B /* PhotosSetting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
