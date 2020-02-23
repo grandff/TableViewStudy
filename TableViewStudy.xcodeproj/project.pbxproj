@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0A520424022E1500A7A5D2 /* SelectionHeaderAndFooterDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A520324022E1500A7A5D2 /* SelectionHeaderAndFooterDelegateViewController.swift */; };
+		1B0A520624022E6400A7A5D2 /* Resion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A520524022E6400A7A5D2 /* Resion.swift */; };
+		1B0A5210240233FC00A7A5D2 /* SelectionHeaderAndFooternIBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A520F240233FC00A7A5D2 /* SelectionHeaderAndFooternIBViewController.swift */; };
+		1B0A52122402361200A7A5D2 /* CustomHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A52112402361200A7A5D2 /* CustomHeader.xib */; };
+		1B0A521424023DE000A7A5D2 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A521324023DE000A7A5D2 /* CustomHeaderView.swift */; };
 		1B5E36C92400FD5A00EA7E8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36C82400FD5A00EA7E8B /* AppDelegate.swift */; };
 		1B5E36CB2400FD5A00EA7E8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36CA2400FD5A00EA7E8B /* SceneDelegate.swift */; };
 		1B5E36CD2400FD5A00EA7E8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E36CC2400FD5A00EA7E8B /* ViewController.swift */; };
@@ -32,6 +37,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B0A520324022E1500A7A5D2 /* SelectionHeaderAndFooterDelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionHeaderAndFooterDelegateViewController.swift; sourceTree = "<group>"; };
+		1B0A520524022E6400A7A5D2 /* Resion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resion.swift; sourceTree = "<group>"; };
+		1B0A520F240233FC00A7A5D2 /* SelectionHeaderAndFooternIBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionHeaderAndFooternIBViewController.swift; sourceTree = "<group>"; };
+		1B0A52112402361200A7A5D2 /* CustomHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHeader.xib; sourceTree = "<group>"; };
+		1B0A521324023DE000A7A5D2 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
 		1B5E36C52400FD5A00EA7E8B /* TableViewStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5E36C82400FD5A00EA7E8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B5E36CA2400FD5A00EA7E8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +79,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0A520724022ED900A7A5D2 /* DelegatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E36DD24010C6400EA7E8B /* DelegatePatternViewController.swift */,
+			);
+			path = DelegatePattern;
+			sourceTree = "<group>";
+		};
+		1B0A520824022EFD00A7A5D2 /* MultiSection */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E36E024010FCB00EA7E8B /* MultiSectionTableViewViewController.swift */,
+			);
+			path = MultiSection;
+			sourceTree = "<group>";
+		};
+		1B0A520924022F1B00A7A5D2 /* Separator */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E36E724011CA700EA7E8B /* SeparatorViewController.swift */,
+			);
+			path = Separator;
+			sourceTree = "<group>";
+		};
+		1B0A520A24022F2800A7A5D2 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E36EB2401288700EA7E8B /* DetailViewController.swift */,
+				1B5E36E9240123B600EA7E8B /* TableViewCellViewController.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		1B0A520B24022F3700A7A5D2 /* AccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E36ED24012E4B00EA7E8B /* AccessoryViewViewController.swift */,
+			);
+			path = AccessoryView;
+			sourceTree = "<group>";
+		};
+		1B0A520C24022F4000A7A5D2 /* SelfSizingCell */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E36F924015D6E00EA7E8B /* SelfSizingCellViewController.swift */,
+			);
+			path = SelfSizingCell;
+			sourceTree = "<group>";
+		};
+		1B0A520D24022F4A00A7A5D2 /* CustomizingSection */ = {
+			isa = PBXGroup;
+			children = (
+				1B0A520324022E1500A7A5D2 /* SelectionHeaderAndFooterDelegateViewController.swift */,
+				1B0A520F240233FC00A7A5D2 /* SelectionHeaderAndFooternIBViewController.swift */,
+			);
+			path = CustomizingSection;
+			sourceTree = "<group>";
+		};
+		1B0A520E24022F5B00A7A5D2 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E36FB240165D300EA7E8B /* CustomCellTagViewController.swift */,
+				1B5E36FF24016C0A00EA7E8B /* CustomCellUITableViewCellViewController.swift */,
+				1B5E37042401729000EA7E8B /* CustomCellNibViewController.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
 		1B5E36BC2400FD5A00EA7E8B = {
 			isa = PBXGroup;
 			children = (
@@ -106,16 +184,14 @@
 		1B5E36DC24010C4C00EA7E8B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1B5E36DD24010C6400EA7E8B /* DelegatePatternViewController.swift */,
-				1B5E36E024010FCB00EA7E8B /* MultiSectionTableViewViewController.swift */,
-				1B5E36E724011CA700EA7E8B /* SeparatorViewController.swift */,
-				1B5E36E9240123B600EA7E8B /* TableViewCellViewController.swift */,
-				1B5E36EB2401288700EA7E8B /* DetailViewController.swift */,
-				1B5E36ED24012E4B00EA7E8B /* AccessoryViewViewController.swift */,
-				1B5E36F924015D6E00EA7E8B /* SelfSizingCellViewController.swift */,
-				1B5E36FB240165D300EA7E8B /* CustomCellTagViewController.swift */,
-				1B5E36FF24016C0A00EA7E8B /* CustomCellUITableViewCellViewController.swift */,
-				1B5E37042401729000EA7E8B /* CustomCellNibViewController.swift */,
+				1B0A520E24022F5B00A7A5D2 /* CustomCell */,
+				1B0A520D24022F4A00A7A5D2 /* CustomizingSection */,
+				1B0A520C24022F4000A7A5D2 /* SelfSizingCell */,
+				1B0A520B24022F3700A7A5D2 /* AccessoryView */,
+				1B0A520A24022F2800A7A5D2 /* TableViewCell */,
+				1B0A520924022F1B00A7A5D2 /* Separator */,
+				1B0A520824022EFD00A7A5D2 /* MultiSection */,
+				1B0A520724022ED900A7A5D2 /* DelegatePattern */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -125,6 +201,7 @@
 			children = (
 				1B5E36E22401101D00EA7E8B /* PhotosSetting.swift */,
 				1B5E36FD2401660300EA7E8B /* WorldTime.swift */,
+				1B0A520524022E6400A7A5D2 /* Resion.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -135,6 +212,7 @@
 				1B5E36E524011BAB00EA7E8B /* SwitchTableViewCell.swift */,
 				1B5E36EF2401342800EA7E8B /* CustomAccessoryTableViewCell.swift */,
 				1B5E37012401704000EA7E8B /* TimeTableViewCell.swift */,
+				1B0A521324023DE000A7A5D2 /* CustomHeaderView.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -143,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				1B5E37062401732100EA7E8B /* SharedCustomCell.xib */,
+				1B0A52112402361200A7A5D2 /* CustomHeader.xib */,
 			);
 			path = Nib;
 			sourceTree = "<group>";
@@ -207,6 +286,7 @@
 			files = (
 				1B5E36D52400FD5D00EA7E8B /* LaunchScreen.storyboard in Resources */,
 				1B5E36D22400FD5D00EA7E8B /* Assets.xcassets in Resources */,
+				1B0A52122402361200A7A5D2 /* CustomHeader.xib in Resources */,
 				1B5E36D02400FD5A00EA7E8B /* Main.storyboard in Resources */,
 				1B5E37072401732100EA7E8B /* SharedCustomCell.xib in Resources */,
 			);
@@ -221,10 +301,14 @@
 			files = (
 				1B5E36FE2401660300EA7E8B /* WorldTime.swift in Sources */,
 				1B5E36EE24012E4B00EA7E8B /* AccessoryViewViewController.swift in Sources */,
+				1B0A5210240233FC00A7A5D2 /* SelectionHeaderAndFooternIBViewController.swift in Sources */,
 				1B5E36E824011CA700EA7E8B /* SeparatorViewController.swift in Sources */,
 				1B5E370024016C0A00EA7E8B /* CustomCellUITableViewCellViewController.swift in Sources */,
 				1B5E36FA24015D6E00EA7E8B /* SelfSizingCellViewController.swift in Sources */,
 				1B5E36E124010FCB00EA7E8B /* MultiSectionTableViewViewController.swift in Sources */,
+				1B0A520424022E1500A7A5D2 /* SelectionHeaderAndFooterDelegateViewController.swift in Sources */,
+				1B0A521424023DE000A7A5D2 /* CustomHeaderView.swift in Sources */,
+				1B0A520624022E6400A7A5D2 /* Resion.swift in Sources */,
 				1B5E36FC240165D300EA7E8B /* CustomCellTagViewController.swift in Sources */,
 				1B5E36CD2400FD5A00EA7E8B /* ViewController.swift in Sources */,
 				1B5E36E624011BAB00EA7E8B /* SwitchTableViewCell.swift in Sources */,
